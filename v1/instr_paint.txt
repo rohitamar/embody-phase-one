@@ -1,0 +1,6 @@
+<div style="text-align:justify;font-size:14px">
+In this experiment we study where you feel on your body after different alcohol related interactions. You will be presented with a situation (e.g. a hangover), and pictures of two blank human bodies. On the left color the regions in which you feel activity increasing. On the right color the regions in which you feel acitivity decreasing. When finished click the button on the bottom right to proceed.
+<br>
+<br>
+Write down your username. If you want to take a break from the experiment, you can continue it by logging on to the system from the front page. 
+</div>
