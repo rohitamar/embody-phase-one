@@ -12,6 +12,8 @@ include_once('lib.php');
     }
     closedir($subjDir);
     $userID=$_GET['userID'];
+    $condition = $_GET['condition'];
+
     $helpful=array('user'=>"$userID");
 
 //test for userID validity
@@ -34,8 +36,13 @@ include_once('lib.php');
 // WE HAVE THE SUBJECT, LET'S START THE SESSION
 
     // does the subject already have a presentation file?
+    //meta data
     $pfpath='./subjects/'.$userID.'/presentation.txt';
-    
+    $metadataPath = './subjects/'.$userID.'/metaData.txt';
+    $metadataFile = fopen($metadataPath, "w");
+    fwrite($metadataFile, $condition);
+    fclose($metadataFile);
+
     // if the file is missing generate it
     if(!(is_file($pfpath)))
     {

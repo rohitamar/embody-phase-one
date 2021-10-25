@@ -17,7 +17,11 @@ include('header.php');
         Enter your ID (change)
         <br><br>
         <input style="font-size:12px;" name="userID" type="text" onclick="this.value=''" value="<?php echo $login; ?>">
-        <br><br><?php echo $register; ?>
+        <br><br>
+        Enter condition:
+        <input style="font-size:12px;" name="condition" type="text" onclick="this.value=''" value="Enter your condition">
+        <br><br>
+        <button type = "submit" value = "Submit">Submit</button>
     </form>
 
 

@@ -15,7 +15,7 @@ if ($yes == 1) {
 		if ($ret == 0)
 			echo "User id <span style=\"font-size:20px;font-weight:bold\">$random</span> ready to annotate!";
 		echo "<br><a href=\"http://130.233.245.37/neurocinematics/localizer/\">SAVE THE ID AND CONTINUE HERE</a>";
-	} else
+	} else	
 		echo "There was an error. Email enrico.glerean@aalto.fi";
 } else {
 ?>
